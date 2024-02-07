@@ -18,7 +18,7 @@ sudo usermod -aG docker $USER
 * Guardar en una ruta el código de la app. Por ejemplo: C:\nickokss\app.py
 * En la misma ruta guardar el fichero requeriments.txt
 * Tambien en la misma ruta guardar un fichero Dockerfile
-* Para crear crear la imagen ejecutamos el comando donde definimos el tag (El punto del final se usa para buscar el archivo en la ruta actual)
+* Abrimos una consola y nos situamos en la ruta donde están los 3 ficheros. Para crear crear la imagen ejecutamos el siguiente comando (El punto del final se usa para buscar el archivo en la ruta actual)
 ```sh
 docker build -t mi_app .
 ```
