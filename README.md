@@ -7,10 +7,11 @@ sudo apt-get update
 ```sh
 sudo apt install docker.io -y
 ```
-* Para que no pida contraseña cada vez que ejecutamos un comando docker
-```sh
-sudo usermod -aG docker $USER
-```
+> [!TIP]
+>Para que no pida contraseña cada vez que ejecutamos un comando docker
+>```sh
+>sudo usermod -aG docker $USER
+>```
 * Reiniciar PC
 
 ## Pasos para dockerizacion de la aplicación
@@ -30,6 +31,6 @@ docker images
 ```sh
 docker run -p 4000:5000 mi_app
 ```
-* Por último para ver la aplicacion vamos al navegador y ponemos la ruta "localhost:4000"
+* Por último para ver la aplicacion vamos al navegador y ponemos la ruta que nos indique en la consola
 
 
