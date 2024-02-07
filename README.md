@@ -1,9 +1,9 @@
 # dockerApp
-Crear imagen de Docker para una aplicacion. En este caso es una aplicacion sencilla en Python.
+Crear imagen de Docker para una aplicación. En este caso es una aplicación sencilla en Python.
 
-## Pasos para dockerizacion de la aplicacion
-* Instalar Docker en el Sistema Operativo en este caso se usa LINUX en Windows puedes usar la aaplicacion "Windows Subsystem for Linux"
-* Guardar en una ruta el codigo de la app. Por ejemplo: C:\nickokss\app.py
+## Pasos para dockerizacion de la aplicación
+* Instalar Docker en el Sistema Operativo en este caso se usa LINUX en Windows puedes usar la aplicación "Windows Subsystem for Linux"
+* Guardar en una ruta el código de la app. Por ejemplo: C:\nickokss\app.py
 * En la misma ruta guardar el fichero requeriments.txt
 * Tambien en la misma ruta guardar un fichero Dockerfile
 * Para crear crear la imagen ejecutamos el comando donde definimos el tag (El punto del final se usa para buscar el archivo en la ruta actual)
