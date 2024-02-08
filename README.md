@@ -16,9 +16,9 @@ sudo apt install docker.io -y
 
 ## Pasos para dockerizacion de la aplicación
 * Instalar Docker en el Sistema Operativo en este caso se usa LINUX. En Windows puedes usar la aplicación "Windows Subsystem for Linux"
-* Guardar en una ruta el código de la app. Por ejemplo: C:\apps
+* Guardar en una ruta el código de la app (app.py). Por ejemplo: C:\apps
 * En la misma ruta guardar el fichero requeriments.txt
-* Tambien en la misma ruta guardar un fichero Dockerfile
+* Tambien en la misma ruta guardar el fichero Dockerfile
 * Abrimos una consola y nos situamos en la ruta donde están los 3 ficheros. Para crear crear la imagen ejecutamos el siguiente comando (El punto del final se usa para buscar el archivo en la ruta actual)
 ```sh
 docker build -t mi_app .
